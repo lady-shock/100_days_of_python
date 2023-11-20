@@ -12,3 +12,6 @@ Modern cryptography uses very large number for security. Raising one huge number
 7) what is (a ** b) % M?
 8) what is (a % M ** b %M)?  hmm...
 9) without using python or a calculator,  what is (54094543425679844 ** 32399434322343531) % 5?
+
+Bonus challenge:
+Its still 4 am and youre on a date. Its time to go home separately. You are each taking different buses from the same stop. Your bus leaves every 17 minutes starting at midnight, your date’s bus leaves every 23 minutes starting at midnight. Its cold and raining hard, and neither of you wants to make the other wait. When is the next time both buses will be at the station simultaneously?
