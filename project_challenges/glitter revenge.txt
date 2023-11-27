@@ -1,0 +1,20 @@
+Let’s talk loops, conditionals and the range() function.
+These elements work together to do amazing things. We’ll be staying here for at least several days if not longer, but I dont think you’ll be bored.
+
+if expression: 
+begins a block of indented code- each line will run if the expression evaluates to true. Expression can be anything that yields a value- x>6 or age > beauty. It can be a calculation like x + y == 10 (remember the difference between = and ==. ‘=‘ assigns a value to a variable like x = 5. ‘==‘ is a test for equality as in x == 5, thats really a question- does x equal 5?)
+every indented line after if expression: runs if expression is true. Once you stop indenting you have left the if block and resumed executing each line regardless of expression. 
+
+So lets talk loops and range():
+We’ll do this and lists then take a pause to really consolidate. Because there’s a *ton* of great stuff you can do with just this much. IMO, learning how to use these basic tools is absolutely vital no matter where you ultimately go- machine learning, data science, automation, game design, whatever…
+
+Python gives you 2 loop styles to use, *for* loops and *while* loops. You can use whichever you like and often it just a matter of which feels more natural to do what you are wanting to do. Any *for* loop can be written as a *while* loop and vice versa. 
+In general, I’d say that if you want to “do something” a certain number of times (even if you don’t know how many until the code runs), a *for* loop works best. If you want to “do something” until a certain condition is met, then you probably want a *while*  loop. 
+
+*for*:
+a for loop is written like this-
+```
+for variable in iterable:
+	do something
+	do something else
+```
